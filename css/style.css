@@ -1,0 +1,732 @@
+/* Fuentes */
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.playfair-display {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.lora {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Fuentes */
+
+body {
+  font-family: "poppins-regular", sans-serif;
+}
+
+body {
+  padding-top: 75px;
+}
+
+.text-justificado {
+  text-align: justify;
+}
+
+.color-fondo-navbar {
+  background-color: #f5f6f8;
+  height: 80px !important;
+}
+
+.color-fondo-navbar2 {
+  background-color: #142e49;
+  height: 80px !important;
+}
+
+.color-fuente {
+  color: #142e49;
+}
+
+.text-color-white {
+  color: white;
+}
+
+/* boton redondeado arriba */
+
+.btn-redondeado-arriba {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+/* Efcto hover elegante para botones */
+.btn-elegante {
+  background-color: #142e49;
+  color: #d0d0d0; /* gris claro por defecto */
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-elegante:hover {
+  background-color: #1f4b73;
+  transform: translateY(-3px);
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.3);
+  color: #fff; /* ✅ solo blanco en hover */
+}
+
+/* Otro efecto hover solo para la página actual */
+.nav-activo {
+  color: #fff !important; /* blanco intenso */
+  background-color: #1f4b73; /* azul activo */
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+/* botones de las tabs */
+
+/* ================================
+   BOTONES ELEGANTES - CÁMARAS
+================================ */
+
+.camaras-tabs .nav-link {
+  background: #f5f7fa;
+  color: #1f4b73;
+  border-radius: 50px;
+  padding: 10px 22px;
+  font-weight: 500;
+  border: 1px solid #dcdcdc;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Hover */
+.camaras-tabs .nav-link:hover {
+  background: #1f4b73;
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+/* ACTIVO */
+.camaras-tabs .nav-link.active {
+  background: linear-gradient(135deg, #0d6efd, #1f4b73);
+  color: #ffffff;
+  border: none;
+  box-shadow: 0 10px 25px rgba(13, 110, 253, 0.35);
+  transform: translateY(-2px);
+}
+
+/* Opcional: icono o marcador */
+.camaras-tabs .nav-link.active::after {
+  content: "●";
+  margin-left: 8px;
+  font-size: 0.6rem;
+  vertical-align: middle;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .camaras-tabs .nav-link {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
+}
+
+/* ================================
+   BOTÓN COTIZAR - CÁMARAS
+================================ */
+
+.btn-camaras {
+  background: linear-gradient(135deg, #0d6efd, #084298);
+  color: #ffffff;
+  border-radius: 50px;
+  padding: 10px 28px;
+  font-weight: 600;
+  border: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 22px rgba(13, 110, 253, 0.35);
+}
+
+/* Hover */
+.btn-camaras:hover {
+  background: linear-gradient(135deg, #084298, #052c65);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px rgba(13, 110, 253, 0.45);
+  color: #ffffff;
+}
+
+/* Focus / accesibilidad */
+.btn-camaras:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(13, 110, 253, 0.35);
+}
+
+/* Imagenes optimizadas */
+.img-optimizada {
+  height: 220px;
+  object-fit: cover;
+}
+/* Imagenes optimizadas */
+
+/* Tamaño de imagenes exacto */
+/* Imágenes de card vertical */
+.card-img-top {
+  width: 100%;
+  height: auto !important; /* No fuerza la altura */
+  object-fit: contain !important; /* No recorta */
+  background-color: #fff; /* (opcional) relleno elegante */
+  padding: 5px; /* Margen visual para móviles */
+}
+
+/* Imágenes de card horizontal */
+.card-horizontal-img {
+  width: 100%;
+  height: auto !important;
+  object-fit: contain !important;
+  background-color: #f8f9fa;
+  padding: 5px;
+}
+
+/* Ajuste solo en móvil para que no se aplasten */
+@media (max-width: 576px) {
+  .card-img-top,
+  .card-horizontal-img {
+    max-height: 250px; /* límite suave */
+  }
+}
+
+/* Efecto zoom en imagenes de card */
+/* Efecto zoom para cards verticales */
+/* ============================
+   EFECTO ZOOM IMÁGENES (vertical + horizontal)
+   ============================ */
+.card-img-top,
+.card .col-md-4 img {
+  transition: transform 0.4s ease;
+}
+
+.card:hover .card-img-top,
+.card:hover .col-md-4 img {
+  transform: scale(1.08);
+}
+
+/* ============================
+   EFECTO LEVITACIÓN DE LA TARJETA
+   ============================ */
+.card {
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+  overflow: hidden; /* evita que la imagen salga de la tarjeta */
+}
+
+.card:hover {
+  transform: translateY(-8px); /* La tarjeta "sube" */
+  box-shadow: 0 18px 30px rgba(0, 0, 0, 0.25); /* sombra elegante */
+}
+
+/* Efecto zoom en imagenes de card */
+/* Tamaño de imagenes exacto */
+
+/* Para que las imagenes no se rompan en movil */
+.camaras-page img,
+.tab-pane img {
+  max-height: 420px;
+  width: 100%;
+  object-fit: cover;
+}
+/* Para que las imagenes no se rompan en movil */
+
+/* Formulario contacto */
+/* ================================
+   CONTACTO - WHATSAPP FIRST
+================================ */
+
+/* ================================
+   CONTACTO - WHATSAPP FIRST
+================================ */
+
+.contacto-wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  padding: 40px 15px;
+}
+
+.contacto-box {
+  max-width: 850px;
+  width: 100%;
+  background: #1c3f63;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
+  color: #ffffff;
+}
+
+.whatsapp-box {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.whatsapp-box h2 {
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.whatsapp-box p {
+  color: #d1d9e0;
+  margin-bottom: 25px;
+  font-size: 1.05rem;
+}
+
+/* BOTÓN WHATSAPP */
+.btn-whatsapp {
+  background: #25d366;
+  color: #ffffff;
+  border-radius: 50px;
+  padding: 14px 34px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.3s ease;
+  box-shadow: 0 10px 25px rgba(37, 211, 102, 0.4);
+  text-decoration: none;
+}
+
+.btn-whatsapp i {
+  color: #000000;
+  font-size: 1.3rem;
+}
+
+.btn-whatsapp:hover {
+  background: #1ebe5d;
+  transform: translateY(-2px);
+  box-shadow: 0 14px 35px rgba(37, 211, 102, 0.55);
+  color: #ffffff;
+}
+
+/* FORMULARIO */
+.form-control {
+  border-radius: 12px;
+  padding: 12px 15px;
+  background: #ffffff;
+  color: #212529;
+}
+
+.form-control::placeholder {
+  color: #6c757d;
+}
+
+textarea.form-control {
+  min-height: 140px;
+  resize: vertical;
+}
+
+.btn-enviar {
+  background: #0d6efd;
+  color: #ffffff;
+  border-radius: 50px;
+  padding: 12px 30px;
+  font-weight: 600;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-enviar:hover {
+  background: #084298;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 576px) {
+  .contacto-box {
+    padding: 30px 20px;
+  }
+}
+/* Formulario contacto */
+
+/* Logo página index */
+.hero-logo {
+  max-width: 320px;
+  width: 100%;
+  height: auto;
+  filter: drop-shadow(0 6px 16px rgba(0, 0, 0, 0.35));
+}
+
+@media (max-width: 992px) {
+  .hero-logo {
+    max-width: 260px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-logo {
+    max-width: 190px;
+  }
+}
+
+/* logo pagina index */
+
+/* ================================
+   SERVICIOS VISUAL - OVERLAY
+================================ */
+
+.servicios-visual {
+  background: #ffffff;
+}
+
+.servicio-visual-card {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 340px;
+  box-shadow: 0 14px 35px rgba(0, 0, 0, 0.15);
+}
+
+/* IMAGEN */
+.servicio-visual-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s ease;
+}
+
+/* OVERLAY */
+.servicio-visual-card .overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(20, 46, 73, 0.85);
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 25px;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+/* TEXTO */
+.servicio-visual-card h5 {
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.servicio-visual-card p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+/* HOVER */
+.servicio-visual-card:hover img {
+  transform: scale(1.1);
+}
+
+.servicio-visual-card:hover .overlay {
+  opacity: 1;
+}
+
+/* MOBILE: overlay siempre visible */
+@media (max-width: 768px) {
+  .servicio-visual-card .overlay {
+    opacity: 1;
+  }
+}
+
+/* CTA SERVICIOS */
+.btn-servicio {
+  margin-top: 18px;
+  padding: 10px 26px;
+  border-radius: 50px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  background: #25d366;
+  color: #000000;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn-servicio:hover {
+  background: #1ebe5d;
+  transform: translateY(-2px);
+  color: #000000;
+}
+
+/* ================================
+   SERVICIOS VISUAL - OVERLAY
+================================ */
+
+.servicio-visual-card {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeUp 0.8s ease forwards;
+}
+
+.servicio-visual-card:nth-child(1) {
+  animation-delay: 0.1s;
+}
+.servicio-visual-card:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.servicio-visual-card:nth-child(3) {
+  animation-delay: 0.3s;
+}
+.servicio-visual-card:nth-child(4) {
+  animation-delay: 0.4s;
+}
+.servicio-visual-card:nth-child(5) {
+  animation-delay: 0.5s;
+}
+.servicio-visual-card:nth-child(6) {
+  animation-delay: 0.6s;
+}
+.servicio-visual-card:nth-child(7) {
+  animation-delay: 0.7s;
+}
+.servicio-visual-card:nth-child(8) {
+  animation-delay: 0.8s;
+}
+.servicio-visual-card:nth-child(9) {
+  animation-delay: 0.9s;
+}
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* SECCION 1 HERO */
+.hero-section {
+  position: relative;
+  width: 100%;
+  min-height: 60vh; /* altura mínima en escritorio */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* contenido al fondo */
+  align-items: center;
+  overflow: hidden;
+  padding-bottom: 2rem;
+}
+
+.hero-section .hero-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.hero-content {
+  z-index: 1;
+  max-width: 1200px;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.hero-content h2 {
+  color: #e97132;
+  font-size: 2rem;
+}
+
+.hero-content p {
+  color: #000;
+  font-size: 1rem;
+}
+
+/* SECCION 2 HERO + CONTADOR */
+/* SECCION 2 HERO + CONTADOR */
+#hero {
+  min-height: 60vh; /* altura mínima en escritorio */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* centra verticalmente el contenido */
+  align-items: center;
+  padding: 4rem 1rem;
+  text-align: center;
+}
+
+#hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+#hero p {
+  font-size: 1.25rem;
+  line-height: 1.6;
+}
+
+.counter-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+/* Contadores individuales */
+.counter-item h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #142e49;
+}
+
+.counter-item p {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+/* MÓVIL */
+@media (max-width: 768px) {
+  #hero {
+    min-height: 50vh; /* menos altura para móviles */
+    padding: 2rem 1rem;
+    justify-content: flex-start; /* contenido más arriba en móvil */
+  }
+
+  #hero h1 {
+    font-size: 2rem;
+  }
+
+  #hero p {
+    font-size: 1rem;
+  }
+
+  .counter-container {
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+
+  .counter-item h2 {
+    font-size: 2rem;
+  }
+
+  .counter-item p {
+    font-size: 0.9rem;
+  }
+}
